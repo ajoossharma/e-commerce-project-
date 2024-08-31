@@ -9,7 +9,7 @@ import Product from './Pages/Product';
 import ShopCategory from './Pages/ShopCategory';
 import LoginSignup from './Pages/LoginSignup';
 import Footer from './components/Footer/Footer';
-import men_banner from '../components/Assets/banner_mens.png'
+import men_banner from './components/Assets/banner_mens.png'
 import women_banner from './components/Assets/banner_women.png'
 import kid_banner from './components/Assets/banner_kids.png'
 
