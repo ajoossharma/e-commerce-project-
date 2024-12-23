@@ -1,17 +1,19 @@
-import Navbar from "./components/Navbar/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Shop from "./Pages/Shop";
-import Cart from "./Pages/Cart";
-import Product from "./Pages/Product";
-import Footer from "./components/Footer/Footer";
-import ShopCategory from "./Pages/ShopCategory";
-import women_banner from "./components/Assets/banner_women.png";
-import men_banner from "./components/Assets/banner_mens.png";
-import kid_banner from "./components/Assets/banner_kids.png";
-import LoginSignup from "./Pages/LoginSignup";
 
-export const backend_url = 'https://e-commerce-website-backend-jld6.onrender.com';
-export const currency = '₹';
+import './App.css';
+
+import Navbar from './components/Navbar/Navbar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Shop from './Pages/Shop';
+import Cart from './Pages/Cart';
+import Product from './Pages/Product';
+import ShopCategory from './Pages/ShopCategory';
+import LoginSignup from './Pages/LoginSignup';
+import Footer from './components/Footer/Footer';
+import men_banner from './components/Assets/banner_mens.png'
+import women_banner from './components/Assets/banner_women.png'
+import kid_banner from './components/Assets/banner_kids.png'
+
+
 
 function App() {
 
