@@ -3,11 +3,11 @@ import './App.css';
 
 import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Shop from './Pages/Shop';
-import Cart from './Pages/Cart';
-import Product from './Pages/Product';
-import ShopCategory from './Pages/ShopCategory';
-import LoginSignup from './Pages/LoginSignup';
+import Shop from './pages/Shop';
+import Cart from './pages/Cart';
+import Product from './pages/Product';
+import ShopCategory from './pages/ShopCategory';
+import LoginSignup from './pages/LoginSignup';
 import Footer from './components/Footer/Footer';
 import men_banner from './components/Assets/banner_mens.png'
 import women_banner from './components/Assets/banner_women.png'
